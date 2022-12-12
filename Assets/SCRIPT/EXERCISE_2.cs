@@ -4,15 +4,6 @@ using UnityEngine;
 
 public class EXERCISE_2 : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //  Create a function that converts from centimeters to inches. For this function you will need:
+    //• An input & An output
 }
