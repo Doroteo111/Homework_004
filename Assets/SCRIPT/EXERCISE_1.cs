@@ -10,5 +10,17 @@ public class EXERCISE_1 : MonoBehaviour
     //Outside of the function you will need a variable that stores the total amount. This total is the
     //one that is modified by the function.
 
-    private void Ba
+    public int money = 10;
+    private int totalMoney;
+
+    private void Start()
+    {
+        SumMoney(money);
+        Debug.Log($"You have in total,{totalMoney} money");
+    }
+    private void SumMoney(int x)
+    {
+        totalMoney = x + totalMoney;
+       
+    }
 }
